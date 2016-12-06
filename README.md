@@ -31,6 +31,9 @@ Now lets have a look at some examples:
 
     // Green text on default console background color
     ColorConsole.WithDarkGreenText.WriteLine("Hello World!");
+    
+    // Default text on Blue background color
+    ColorConsole.WithBlueBackground.WriteLine("Hello World!");
 
     // Background first - White text on Blue background
     ColorConsole.WithDarkBlueBackground.AndWhiteText.Write("I'm a color console library ");
@@ -39,5 +42,5 @@ Now lets have a look at some examples:
     ColorConsole.WithWhiteText.AndRedBackground.WriteLine("And I helped write myself :)");
 
     // Default Console colors
-    Console.WriteLine("You can read more about me at https://github.com/developer82/ColorConsole");
+    Console.WriteLine("You can read more about me at https://github.com/developer82/FluentColorConsole");
 
