@@ -1,0 +1,34 @@
+﻿{
+  "version": "1.0.0-*",
+  "title": "Fluent Color Console",
+  "description": "An easy to use console for writing colorful text - designed for .NET Core",
+  "authors": [ "Ophir Oren" ],
+  "copyright": "Copyright (c) 2016 Ophir Oren",
+  "packOptions": {
+    "owners": [ "Ophir Oren" ],
+    "projectUrl": "https://github.com/developer82/FluentColorConsole",
+    "tags": [ "Console", "Color", "Colors", "Terminal", "Fluent" ],
+    "licenseUrl": "https://github.com/developer82/FluentColorConsole/blob/master/LICENSE",
+    "iconUrl": "https://github.com/developer82/FluentColorConsole/blob/master/Logo.png"
+  },
+
+  "buildOptions": {
+    "xmlDoc": true
+  },
+
+  "dependencies": {
+    "NETStandard.Library": "1.6.1"
+  },
+
+  "frameworks": {
+    "netstandard1.6": {
+      "imports": "dnxcore50"
+    }
+  },
+
+  "scripts": {
+    "postcompile": [
+      "dotnet pack --no-build --configuration %compile:Configuration%"
+    ]
+  }
+}
