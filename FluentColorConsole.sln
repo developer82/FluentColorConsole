@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.9
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "FluentColorConsole", "FluentColorConsole\FluentColorConsole.xproj", "{F41A0E14-2764-44DF-A230-EA91F63E2698}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FluentColorConsole", "FluentColorConsole\FluentColorConsole.csproj", "{F41A0E14-2764-44DF-A230-EA91F63E2698}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "FluentColorConsole.Demo", "FluentColorConsole.Demo\FluentColorConsole.Demo.xproj", "{D5417EB5-30E6-418F-A5CB-B27A5FFE7D37}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FluentColorConsole.Demo", "FluentColorConsole.Demo\FluentColorConsole.Demo.csproj", "{D5417EB5-30E6-418F-A5CB-B27A5FFE7D37}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
