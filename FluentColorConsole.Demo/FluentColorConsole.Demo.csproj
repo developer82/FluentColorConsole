@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp1.0</TargetFramework>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
     <AssemblyName>FluentColorConsole.Demo</AssemblyName>
     <OutputType>Exe</OutputType>
     <PackageId>FluentColorConsole.Demo</PackageId>
@@ -11,6 +11,10 @@
     <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
     <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
     <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
+    <FileVersion>2.0.0.0</FileVersion>
+    <PackageReleaseNotes></PackageReleaseNotes>
+    <Version>2.0.0</Version>
   </PropertyGroup>
 
   <ItemGroup>
