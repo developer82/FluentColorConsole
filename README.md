@@ -14,11 +14,13 @@ Installation
 -------------
 This library is available as a NuGet package at https://www.nuget.org/packages/FluentColorConsole/
 
-Installation:
+**Package Manager Console:**
 
-    Install-Package EntityFramework
+    Install-Package FluentColorConsole
 
+**Dotnet CLI:**
 
+    dotnet add package FluentColorConsole
 
 Usage
 --------
